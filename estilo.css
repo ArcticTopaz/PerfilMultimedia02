@@ -1,0 +1,40 @@
+ /* Classe que da propriedades à caixa na qual os dados estão  */
+.caixa {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+/* Classe que da propriedades às informações  */
+.infor {
+	color: black;
+	text-align: left;
+	}
+	
+/* Classe que da propriedades ao texto debaixo do nome  */
+.titulo {
+  color: black;
+  font-size: 18px;
+}
+
+/* Classe que da propriedades ao botão  */
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+/* Dá propriedades quando o cursor sobrevoa o botão  */
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
